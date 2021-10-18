@@ -1,7 +1,11 @@
 #include<iostream>
 #include<vector>
 #include<QApplication>
-
+#include<QWidget>
+#include<QNetwork>
+#include<QHttp>
+#include<QThread>
+#include<QTimer>
 
 template<typename A>
  
@@ -17,6 +21,22 @@ struct abstructFactory
        A *a;
 	B*b;
    
+};
+class AWidget : public QWidget 
+{
+
+Q_OBJECT
+~AWidget();
+	public :
+	AWidget(QObject*parent=0);
+	private :
+slots:
+	void display();
+	private :
+	QThread* thread;
+	QTimer* timer;
+	int count;
+
 };
 int main(int argc,char*argv[])
 {
