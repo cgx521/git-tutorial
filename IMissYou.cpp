@@ -30,9 +30,9 @@ Q_OBJECT
 	public :
 	AWidget(QObject*parent=0);
 	private :
-singal: int 射门没() const;
+singal: //int 射门没() const;
 slots:
-
+  fuckYouMother() const;
 
 };
 class Test1 : public QThread
@@ -49,9 +49,12 @@ class Test2: public QApplication
 {
 	Q_OBJECT
 	virtual void test()=0;
-	virtual int interfacex()=0 ;
-	virtual QObject* create()=0;
+	//virtual int interfacex()=0 ;
+	//virtual QObject* create()=0;
 };
+class XMG 
+{
+}
 int main(int argc,char*argv[])
 {
    int x,y;
