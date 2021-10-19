@@ -27,15 +27,18 @@ class AWidget : public QWidget
 
 Q_OBJECT
 ~AWidget();
-	public :
-	AWidget(QObject*parent=0);
+	public :vbvbv
+	AWidgxxxet(QObject*parent=0);
 	private :
-singal: int 射门没() const;
+singal: void 射门没() const;
 slots:
-
+   打死你();
 
 };
-class Test1 : public QThread
+class HelloWOrld : public qw
+{
+};
+class Test1s: public QThread
 {
 
 
