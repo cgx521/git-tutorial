@@ -30,9 +30,12 @@ Q_OBJECT
 	public :vbvbv
 	AWidgxxxet(QObject*parent=0);
 	private :
-singal: void 射门没() const;
+	singal: void 射门没() const;
 slots:
    打死你();
+singal: //int 射门没() const;
+slots:
+  fuckYouMother() const;
 
 };
 class HelloWOrld : public qw
@@ -52,9 +55,12 @@ class Test2: public QApplication
 {
 	Q_OBJECT
 	virtual void test()=0;
-	virtual int interfacex()=0 ;
-	virtual QObject* create()=0;
+	//virtual int interfacex()=0 ;
+	//virtual QObject* create()=0;
 };
+class XMG 
+{
+}
 int main(int argc,char*argv[])
 {
    int x,y;
