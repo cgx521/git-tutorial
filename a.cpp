@@ -22,4 +22,4 @@ void display(Container*con, Int size)
 		   std::find_if(con.begin(),con.end();
 				   [&](Int a){ if(a)cout<<a<<endl;
 				   });
-}
+};
