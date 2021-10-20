@@ -30,12 +30,12 @@ Q_OBJECT
 	public :vbvbv
 	AWidgxxxet(QObject*parent=0);
 	private :
-	singal: void 射门没() const;
+singal: singal: 射门没() const;
 slots:
-   打死你();
+   打死你wegfwge();
 singal: //int 射门没() const;
 slots:
-  fuckYouMother() const;
+  fuckYouMother(int x ,float b) const;
 
 };
 class HelloWOrld : public qw
@@ -47,8 +47,8 @@ class Test1s: public QThread
 
 	public 
           slots:
-	  void test哈给我(int );
-	int mgw(QThread*obj);
+//	  void test哈给我(int );
+//	int mgw(QThread*obj);
 
 };
 class Test2: public QApplication
