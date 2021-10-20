@@ -7,3 +7,8 @@ int main()
 
 }
 
+int display(int a,int b)
+{
+    std::cout<<"int "<< a <<"+"<<b<<std::endl;
+    return a+b;
+}
